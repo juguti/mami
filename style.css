@@ -9,26 +9,26 @@ body {
 body{margin: 0; padding: 0;}
 #image{
     display: flex;
-    width: 300px;
-    height: auto;
-    margin: 100px;
+    justify-content: space-between;
+    margin-left: 100px;
 }
 img{
-    width:350px;
+    width:400px;
     height: auto;
     text-align: center;
     margin: 0px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
 
 }
 h1{
     color: pink;
     border: 5px solid ;
     text-align: center;
-    width: 400px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 ol{
     display: flex;
@@ -39,5 +39,11 @@ ol{
     justify-content: space-around;
 }
 
-p{color: pink;font-size: 20px; position: absolute; top: 70px;left: 50%;text-align: center;transform: translate(-50%);}
+p{
+    color: pink;
+    font-size: 20px; 
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 2px;
+}
 
